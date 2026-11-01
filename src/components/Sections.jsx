@@ -40,7 +40,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-forest-deep via-forest-deep/60 to-forest-deep/20" />
       <div className="relative mx-auto w-full max-w-6xl px-5 pb-20 pt-40">
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}
-          className="mb-4 text-base font-semibold text-white/90">E-Lab Challenge 5 · Musanze District, Rwanda</motion.p>
+          className="mb-4 text-base font-semibold text-white/90">E-Lab Challenge 6 · Musanze District, Rwanda</motion.p>
         <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.1 }}
           className="text-[clamp(4rem,16vw,11rem)] font-black leading-[0.85]">KORA<br />LAB</motion.h1>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.35 }}>
@@ -285,7 +285,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-14 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="font-display text-3xl font-black">KORA <span className="text-gold">LAB</span></p>
-          <p className="mt-2 text-white/70">E-Lab Challenge 5 — African Leadership University</p>
+          <p className="mt-2 text-white/70">E-Lab Challenge 6 — African Leadership University</p>
         </div>
         <div className="flex gap-4">
           <a href={D.CONTACT.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-white hover:text-red-500">
